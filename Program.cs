@@ -3,16 +3,12 @@ using System.Windows.Forms;
 
 namespace CSharp
 {
+    using Experiemnt = Experiemnt4;
     static class Program
     {
-        //实验3-1
-        //public static Form1 form = new Form1();
-
-        //实验3-2
-        //public static Form2 form = new Form2();
-
-        //实验3-3
-        public static Form3 form = new Form3();
+        //public static Experiemnt.Form1 form = new Experiemnt.Form1();
+        //public static Experiemnt.Form2 form = new Experiemnt.Form2();
+        public static Experiemnt.Form3 form = new Experiemnt.Form3();
 
         /// <summary>
         ///  The main entry point for the application.
